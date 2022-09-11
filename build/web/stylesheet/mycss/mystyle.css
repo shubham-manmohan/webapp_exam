@@ -1,0 +1,15 @@
+.mynav {
+    background-color: rgb(200, 200, 200);
+}
+
+.mynavul {
+    /* use mx-auto class of bootstrap to fixed position at center  */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+.mydiv {
+    position: sticky;
+    margin-top: 150px;
+}

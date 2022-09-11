@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class  name="onlineexam.entity.Exam" table="EXAM">
+      <id name="examId" column="exam_id">
+          <generator class="sequence">
+          </generator>
+      </id>
+      <property name="subjectId" column="subject_id"/>
+      <property name="totalQuestions" column="total_questions"/>
+      <property name="totalMarks" column="total_marks"/>
+  </class>
+</hibernate-mapping>
